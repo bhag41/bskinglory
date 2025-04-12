@@ -1,21 +1,21 @@
 ---
-title: Voice-First Smart Home Assistant
-author: John Doe
-description: A comprehensive smart home solution designed specifically for users with visual impairments, featuring voice-first interactions and haptic feedback
+title: maitrin (मैत्रीण)
+author: bhag41
+description: An Online Community for Marathi Women.
 ---
 
 ## Project Overview
 
-Our team developed an inclusive smart home solution that makes home automation accessible to everyone, with a special focus on users with visual impairments. The system uses advanced speech recognition and natural language processing to provide intuitive voice control, while incorporating haptic feedback for tactile confirmation of actions.
+Marathi is one of the Indian Language, spoken by millions of people around the world, but mainly in State of Maharashtra. The Marathi digital-scape was devoid of a women-centric, women-led support group/discussion forum. Hence I started maitrin.com in February 2015. (Yup, just celebrated the 10th Birthday!)
 
 ## Technical Challenges
 
-One of the biggest challenges was creating a reliable voice recognition system that could work effectively in noisy environments and understand diverse speech patterns, including users with speech impediments. We solved this by implementing a custom machine learning model trained on a diverse dataset of voices and ambient conditions.
+Discussion forums need to be very flexible and dynamic. They need to have an ability to support tons of articles, comments, pictures and other features. maitrin being a Marathi website, support to Marathi language, having the interface (mostly) in Marathi is also a must. Drupal comes very handy in this cases. It has excellent structure to support both those needs.
 
 ## Testimonial
 
-> "This system has given me back my independence at home. The voice controls are so natural, and the haptic feedback helps me confirm every action without needing to see anything."
+> "maitrin is ... TBD"
 >
-> - Maria Rodriguez, Beta Tester
+> - TBD
 
-The project continues to evolve with regular updates based on user feedback, with a focus on expanding support for multiple languages and additional accessibility features.
+The project continues to evolve with regular updates based on user feedback, with a focus on making it more accessible on various devices and more importantly to support through the growing scale!
