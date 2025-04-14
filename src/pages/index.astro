@@ -11,38 +11,47 @@ import { Accordion, AccordionItem } from 'accessible-astro-components'
   <Hero />
   <section class="my-64">
     <div class="container">
-      <h2 class="mb-16 text-6xl">Features</h2>
+      <h2 class="mb-16 text-6xl">Technical Skills</h2>
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        <Feature icon="mdi:tailwind" title="Tailwind CSS">
-          Use the power of Tailwind to greatly improve your productivity and enhance your developer workflow.
+        <Feature icon="mdi:language-javascript" title=" ES6+ JavaScript">
+          Proficient in modern JavaScript (ES6+), including arrow functions, destructuring, promises, and modules. Write
+          clean, modular, and maintainable code leveraging latest language features and patterns.
         </Feature>
-        <Feature icon="mdi:wheelchair-accessibility" title="a11y Components">
-          17 components and counting, all tried and tested for the most optimal accessible experience for your visitors.
+        <Feature icon="mdi:react" title="React.JS">
+          Experienced in building scalable, component-driven UIs with React, using hooks, context API, and state
+          management. Optimized performance with lazy loading, code-splitting, and effective use of lifecycle methods.
         </Feature>
-        <Feature icon="mdi:looks" title="Prettier">
-          Less worry about formatting your code, let the Astro Prettier integration do the heavy lifting.
+        <Feature icon="mdi:nodejs" title="Node.JS">
+          Skilled in building RESTful and event-driven backend services using Express and Node.js. Handled middleware,
+          authentication, error handling, and asynchronous operations efficiently.
         </Feature>
-        <Feature icon="mdi:eslint" title="ESLint">
-          Lint your code with strict a11y settings to ensure you stay on track with the WCAG standards.
+        <Feature icon="mdi:language-python" title="Python">
+          Developed server-side applications and data workflows using Python and frameworks like Django and Flask.
+          Utilized Python for scripting, automation, and data processing tasks with clean, readable code.</Feature
+        >
+        <Feature icon="mdi:api" title="APIs">
+          Designed and consumed RESTful APIs with proper versioning, validation, and security practices. Integrated
+          third-party APIs and built robust backend services with JSON/XML payload handling.</Feature
+        >
+        <Feature icon="mdi:database" title="SQL/NoSQL databases">
+          Proficient and experience working in MySQL, Oracle, PostgreSQL, MongoDB, AWS RDS, DynamdoDB.
         </Feature>
-        <Feature icon="mdi:book-open-page-variant" title="Blog">
-          This theme comes with a fully integrated blog, dynamic pages and SEO optimization.
+        <Feature icon="mdi:aws" title="Cloud - AWS, GCP, Azure">
+          Hands-on experience deploying and managing applications on AWS, GCP, and Azure cloud platforms. Familiar with
+          services like EC2, S3, Cloud Functions, App Engine, and Azure Web Apps for scalable deployments.
         </Feature>
-        <Feature icon="mdi:language-markdown" title="Markdown & MDX">
-          Easily use .md and .mdx pages to build your websites or use it with Netlify CMS.
+        <Feature icon="mdi:graphql" title="GraphQL">
+          Built efficient data-fetching layers using GraphQL with Apollo Client and Server. Defined flexible schemas and
+          resolvers to streamline communication between frontends and microservices.
         </Feature>
-        <Feature icon="mdi:theme-light-dark" title="Dark mode">
-          Fully integrated Dark mode gives your users the choice for their favorite viewing mode.
-        </Feature>
-        <Feature icon="mdi:cog" title="Design System">
-          The theme offers some very handy utilities to help you build your website faster.
-        </Feature>
-        <Feature icon="mdi:lighthouse" title="Lighthouse Scores">
-          Excellent lighthouse scores means your website will load faster and get better SEO rankings.
+        <Feature icon="mdi:lighthouse" title="SEO">
+          Implemented technical SEO best practices including meta tags, structured data, sitemaps, and accessibility.
+          Improved site visibility and performance using SSR, lazy loading, and performance audits (Lighthouse).
         </Feature>
       </div>
     </div>
   </section>
+  <!-- Accessible Components Section 
   <ContentMedia imgSrc="/accessible-components.webp">
     <h2>Accessible Components</h2>
     <p class="text-2xl">
@@ -60,64 +69,60 @@ import { Accordion, AccordionItem } from 'accessible-astro-components'
       reaching WCAG AA compliance.
     </p>
   </ContentMedia>
+  <!-- End of Accessible Components Section -->
+
   <section class="my-64">
     <div class="container grid grid-cols-1 gap-12 md:grid-cols-2">
       <div class="flex flex-col items-start gap-4">
         <h2 class="text-6xl">FAQ</h2>
-        <p class="text-2xl">
-          This section demonstrates how to effectively use the Accordion component to organize and display frequently
-          asked questions in an accessible and user-friendly way.
-        </p>
-        <a class="button" href="/faq">Contact support team</a>
+        <p class="text-2xl">Some FAQs answered...</p>
+        <a class="button" href="/faq">Have more Qs? Contact me</a>
       </div>
       <div class="space-content">
         <Accordion>
-          <AccordionItem name="exclusive" title="What is WCAG and why is it important?" open>
+          <AccordionItem name="exclusive" title="Tell us about yourself?">
             <p>
-              WCAG (Web Content Accessibility Guidelines) is a set of internationally recognized standards for web
-              accessibility. Following WCAG ensures your website is usable by people with various disabilities,
-              including visual, auditory, physical, and cognitive impairments. It's important not just for
-              accessibility, but also for legal compliance, SEO, and reaching a wider audience.
+              Experienced Software Engineer with 10+ years in full-stack web application development. Proficient in
+              JavaScript (React.js, Node.js), Python (Django, Flask), and AWS. Adept at collaborating with
+              cross-functional teams, experienced in Waterfall and Agile methodologies, and familiar with CI/CD and
+              DevOps practices. Passionate about optimizing UI/UX through performance enhancements like lazy loading,
+              server-side rendering, and PWAs. Enthusiastic, dependable, and always eager to learn and adapt to new
+              technologies.
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="What's the difference between ARIA labels and alt text?">
+          <AccordionItem name="exclusive" title="Where are you? Are you willing to relocate?" open>
             <p>
-              Alt text is specifically for describing images to screen reader users, while ARIA labels (aria-label,
-              aria-labelledby) can describe any element on a page. Alt text is HTML's native way to provide alternative
-              text for images, while ARIA labels are part of the ARIA specification that helps make dynamic content and
-              advanced UI controls more accessible.
+              I live in nice little LA suburb called Simi Valley. I prefer working for nearby areas such as Thousand
+              Oaks, Westlake Village, Woodland Hills, Northridge, Burbank, Los Angeles, Pasadena. If it's remote, it's
+              always preferable! I may consider relocating if the job is in San Fransisco Bay Area.
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="Why is keyboard navigation important?">
+
+          <AccordionItem name="exclusive" title="What is your Educational Background?">
             <p>
-              Keyboard navigation is essential for users who can't use a mouse, including people with motor
-              disabilities, visual impairments, or those who simply prefer keyboard controls. A website should be fully
-              operable using only a keyboard, with visible focus indicators and logical tab order. This includes being
-              able to access all interactive elements and navigate through content efficiently.
+              I have my Bachelors in Computer Engineering completed from University of Pune, India. Someday I would love
+              to do the Masters in CS! I love learning new things and I keep updating my knowledge through books,
+              documentation, Youtube videos, Podcasts, Coursera.com, LinkedIn Learning and follow many developers on
+              Bluesky to learn from their posts.
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="What is a sufficient color contrast ratio?">
+          <AccordionItem name="exclusive" title="Thoughts on AI?">
             <p>
-              According to WCAG 2.2 AA standards, text should have a minimum contrast ratio of 4.5:1 against its
-              background for regular text, and 3:1 for large text (18pt or 14pt bold). For non-text elements like icons
-              or buttons, a minimum ratio of 3:1 is required. This ensures content is readable for users with visual
-              impairments or color blindness.
+              Love it! Been dabbling into GenAI courses and APIs such Gemini and OpenAI. Currently working on a project
+              using Gemini API, will write about it in a separate blogpost soon!
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="How do I make custom components accessible?">
+          <AccordionItem name="exclusive" title="Tabs or spaces?">
             <p>
-              To make custom components accessible, focus on these key aspects: use semantic HTML where possible,
-              implement proper keyboard support, add appropriate ARIA attributes, manage focus when needed, and ensure
-              adequate color contrast. Always test with screen readers and keyboard navigation. Consider using
-              established design patterns from the <a href="https://www.w3.org/WAI/ARIA/apg/patterns/"
-                >ARIA Authoring Practices Guide</a
-              >.
+              Haha! This is just a placeholder question but important nevertheless. I have noticed I use tabs more, but
+              every company has a different rulebook which I follow. :)
             </p>
           </AccordionItem>
         </Accordion>
       </div>
     </div>
   </section>
+  <!--
   <section class="mb-32 mt-64">
     <div class="container">
       <h2 class="mb-16 text-6xl">Counters</h2>
@@ -129,4 +134,5 @@ import { Accordion, AccordionItem } from 'accessible-astro-components'
       </div>
     </div>
   </section>
+  -->
 </DefaultLayout>
